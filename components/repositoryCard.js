@@ -45,7 +45,7 @@ const RepositoryCard = (props) => {
     return (
         <div
             key={repo.id}
-            className={`flex flex-col m-4 p-4 border-solid border-2 rounded shadow-lg ${repo.markedSeen ? "border-gray-500" : "border-black"}`}
+            className={`flex flex-col m-4 p-4 border-solid border-2 rounded shadow-lg ${repo.markedSeen ? "border-gray-200" : "border-black"}`}
         >
             <div
                 className="flex flex-row flex-wrap cursor-pointer"
